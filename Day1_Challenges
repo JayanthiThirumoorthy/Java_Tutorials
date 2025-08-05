@@ -1,0 +1,102 @@
+✨1.Variables:
+
+      import java.util.*;
+
+      public class Variables {
+        public static void main(String[] args) {
+          int i = 26;
+          String name = "Java";
+          String str = name;
+
+          System.out.println(i);
+          System.out.println(name);
+          System.out.println(str);
+         }
+      }
+
+#### 🚀 What It Shows:
+   ✅ import java.util.*; -> Imports all utility classes from the java.util package.
+   ✅ public class Variables{ ->	Declares a public class named Variables.
+   ✅ public static void main(String[] args) -> The entry point of any standalone Java application. It tells the JVM where to begin execution.
+   ✅ int i = 26; -> Declares and initializes an integer variable i.
+   ✅ String name = "Java"; -> Declares and initializes a String variable called name.
+   ✅ String str = name; -> Creates a new String variable str and assigns it the value of name.
+   ✅ System.out.println(...) -> method used to print output to the console.
+
+🧮Output: 
+              26
+              Java
+              Java
+  
+
+✨2.Operators:
+      import java.util.*; 
+      public class Operators { 
+        public static void main(String[] args) { 
+          int a = 26; 
+          int b = 21; 
+          int ad = a+b; 
+          int sub = a-b; 
+          int mul = a*b; 
+          int div = a/b; 
+
+          System.out.println("Addition: "+ad); 
+          System.out.println("Subtraction: "+sub); 
+          System.out.println("Multiplication: "+mul); 
+          System.out.println("Division: "+div); 
+          } 
+        }
+      
+
+#### 🚀 What It Shows:
+  ✅ public class Operators ->	Defines the class where all operations will be handled.
+  ✅ int a = 26, b = 21; -> 	Declares and initializes two integer variables.
+  ✅ int ad = a + b;	-> Performs addition and stores the result.
+  ✅ int sub = a - b; ->	Performs subtraction.
+  ✅ int mul = a * b;	-> Multiplies a and b.
+  ✅ int div = a / b;	-> Performs integer division. It truncates decimal parts.
+  ✅ System.out.println(...)	-> Prints output to the console.
+
+🧮Output: 
+              Addition: 47
+              Subtraction: 5
+              Multiplication: 546
+              Division: 1
+
+✨3.User Input:
+
+      import java.util.Scanner;
+
+      public class UserInput {
+        public static void main(String[] args) {
+          Scanner sc = new Scanner(System.in);
+
+          System.out.print("Enter an Integer: ");
+          int a = sc.nextInt();
+          sc.nextLine(); // Clear the buffer
+
+          System.out.print("Enter Your Name: ");
+          String Jaiii = sc.nextLine();
+
+          System.out.println("You entered the Integer: " + a);
+          System.out.println("You entered the Name: " + Jaiii);
+          }
+        }
+
+#### 🚀 What It Shows:
+  ✅Scanner Class	Used to capture user input via console
+  ✅sc.nextInt() -> 	Reads an integer from user
+  ✅sc.nextLine() ->	Reads a string and clears newline buffer
+  ✅System.out.print() -> 	Prompts the user
+  ✅System.out.println() -> 	Displays output
+
+🧮Output: 
+
+                Enter an Integer: 24
+                Enter Your Name: Jayanthi
+
+                You entered the Integer: 24
+                You entered the Name: Jayanthi
+
+
+      
